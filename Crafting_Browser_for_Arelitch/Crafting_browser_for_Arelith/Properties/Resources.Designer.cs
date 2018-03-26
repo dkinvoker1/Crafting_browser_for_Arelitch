@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Crafting_Browser_for_Arelitch.Properties
+namespace Crafting_browser_for_Arelith.Properties
 {
 
 
@@ -44,7 +44,7 @@ namespace Crafting_Browser_for_Arelitch.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Crafting_Browser_for_Arelitch.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Crafting_browser_for_Arelith.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Crafting_Browser_for_Arelitch
+namespace Crafting_browser_for_Arelith
 {
     /// <summary>
     /// Interaction logic for App.xaml

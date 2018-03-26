@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Crafting_Browser_for_Arelitch
+namespace Crafting_browser_for_Arelith
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,6 +23,10 @@ namespace Crafting_Browser_for_Arelitch
         public MainWindow()
         {
             InitializeComponent();
+            Crafting_Item test = new Crafting_Item("test", 1, 2);
+            test.Material_Requirements.Add("Coal", 2);
+            test.Material_Requirements.Add("Iron", 3);
+            test.CreateXml();
         }
     }
 }

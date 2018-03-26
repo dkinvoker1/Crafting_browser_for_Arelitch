@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Crafting_Browser_for_Arelitch.Properties
+namespace Crafting_browser_for_Arelith.Properties
 {
 
 

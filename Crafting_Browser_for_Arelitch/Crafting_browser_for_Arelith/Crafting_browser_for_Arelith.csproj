@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1E00655E-3768-4091-AF9B-072EB47D9C3B}</ProjectGuid>
+    <ProjectGuid>{B4174048-569F-42FE-A4D3-3670509C5D96}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Crafting_Browser_for_Arelitch</RootNamespace>
-    <AssemblyName>Crafting_Browser_for_Arelitch</AssemblyName>
+    <RootNamespace>Crafting_browser_for_Arelith</RootNamespace>
+    <AssemblyName>Crafting_browser_for_Arelith</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -62,6 +62,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Crafting_Item.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
